@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+select{
+   font-size: 18px;
+   text-align-last:center;
+}
+
+select option{
+    font-size: 18px;
+}
+
+
+label, input, select{
+    text-align: center;
+}
+
+form{
+    border-radius: 20px;
+}
+img{
+    max-width: 100%;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+} 
+.d-center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+.m-l0{
+    margin-left: 0;
+}
+.m-between{
+    display: flex;
+    justify-content:space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+
+}
+
+.dancing-script{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.east-sea{
+    font-family: 'East Sea Dokdo', cursive;
+}
+.p-1{
+    padding: 5px;
+}
+.ph-2{
+    padding-inline: 20px;
+}
+
+#color_input, #name_input, #font_select{
+    width: 50%;
+}
+
+#race_select{
+    width: 100%;
+}
